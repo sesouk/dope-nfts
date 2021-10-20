@@ -19,7 +19,8 @@ contract MyDopeNFT is ERC721URIStorage {
 
     _safeMint(msg.sender, newItemId);
 
-    _setTokenURI(newItemId, "Stuff and things");
+    _setTokenURI(newItemId, "https://jsonkeeper.com/b/IOYU");
+    console.log("An NFT w/ ID %s has been minted to %s", newItemId, msg.sender);
 
     _tokenIds.increment();
   }
