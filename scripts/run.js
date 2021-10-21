@@ -6,6 +6,9 @@ const main = async () => {
 
   let txn = await nftContract.makeNFT()
   await txn.wait()
+
+  txn = await nftContract.makeNFT()
+  await txn.wait()
 }
 
 const runMain = async () => {
