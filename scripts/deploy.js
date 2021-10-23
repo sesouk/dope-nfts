@@ -3,10 +3,6 @@ const main = async () => {
   const nftContract = await nftContractFactory.deploy()
   await nftContract.deployed()
   console.log("Contract summoned at:", nftContract.address);
-
-  let txn = await nftContract.makeNFT()
-  await txn.wait()
-  console.log("Minted NFT #1")
 }
 
 const runMain = async () => {
