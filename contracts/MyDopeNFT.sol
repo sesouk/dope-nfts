@@ -18,8 +18,8 @@ contract MyDopeNFT is ERC721URIStorage {
   string svgPartOne = "<svg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='xMinYMin meet' viewBox='0 0 350 350'><style>.base { fill: white; font-family: serif; font-size: 24px; }</style><rect width='100%' height='100%' fill='";
   string svgPartTwo = "'/><text x='50%' y='50%' class='base' dominant-baseline='middle' text-anchor='middle'>";
 
-  string[] firstWords = ["Naruto", "Kakashi", "Itachi", "Mitsuki", "Sasuke", "Minato", "Hashirama", "Sakura", "Jiraiya", "Hinata", "Shisui", "Tsunade", "Ino", "Boruto", "Madara", "Kawaki"];
-  string[] secondWords = ["Bitcoin", "Ethereum", "Cardano", "Solana", "Polkadot", "Dogecoin", "Terra", "Uniswap", "Litecoin", "Chainlink", "Algorand", "Polygon", "Stellar", "VeChain", "Fantom", "Hedera"];
+  string[] firstWords = ["Kakashi", "Itachi", "Naruto", "Mitsuki", "Minato", "Hashirama", "Sakura", "Jiraiya", "Sasuke", "Hinata", "Shisui", "Tsunade", "Kawaki", "Ino", "Boruto", "Madara"];
+  string[] secondWords = ["Bitcoin", "Ethereum", "Cardano", "Solana", "Polkadot", "Dogecoin", "Terra", "Uniswap", "VeChain", "Litecoin", "Chainlink", "Algorand", "Polygon", "Stellar", "Fantom", "Hedera"];
   string[] thirdWords = ["Sushi", "Ramen", "Katsu", "Curry", "Tsukemen", "Udon", "Nigiri", "Onigiri", "Sashimi", "Tempura", "Yakitori", "Gyoza", "Donburi", "Takoyaki", "Wagyu"];
 
   string[] colors = ["#fcba21", "#f05321", "#024da1", "#f072ac", "#9b00b8", "#db0138", "#000000", "#2782ff"];
